@@ -13,18 +13,6 @@
     <!-- tailwind and daisy ui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- tailwind custom styles -->
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
-        }
-      </script>
     <style>
         .font-lato{
             font-family: 'Lato', sans-serif;
@@ -140,6 +128,7 @@
         </section>
         <!-- banner part end -->
     </header>
+
     <main>
       <!-- deal of the day part start -->
       <section class="container mx-auto mt-14">
@@ -408,7 +397,7 @@
       <!-- Meet the team section start -->
       <section class="container mx-auto mt-14">
         <div>
-          <img class="w-full" src="images/team.png" alt="" >
+          <img class="w-full h-auto" src="images/team.png" alt="">
         </div>
         <div class="-mt-[35rem] text-center text-white">
           <h3 class="text-4xl font-bold mb-5">Meet the team section</h3>
@@ -538,11 +527,10 @@
               </div>
             </div>
           </div>
-        
-
       </section>
       <!-- why choose us part end -->
     </main>
+
     <!-- footer start -->
     <footer class="footer footer-center p-28 bg-[#121212] text-base-content mt-32">
       <div class="navbar-center flex">
